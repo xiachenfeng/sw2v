@@ -6,7 +6,7 @@ RUN apt-get install -y build-essential wget libboost-dev libboost-system-dev
 
 RUN rm -rf /tmp/sw2v/
 
-RUN git clone --recursive http://github.com/xlvector/sw2v /tmp/sw2v
+RUN git clone --recursive http://github.com/xiachenfeng/sw2v /tmp/sw2v
 
 RUN cd /tmp/sw2v/ps-lite && make
 
